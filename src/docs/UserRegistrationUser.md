@@ -1,0 +1,11 @@
+# PeerTubeApiClient.Model.UserRegistrationUser
+If the registration has been accepted, this is a partial user object created by the registration
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Id** | **int** |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
