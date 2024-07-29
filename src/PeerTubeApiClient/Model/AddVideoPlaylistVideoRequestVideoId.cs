@@ -71,7 +71,7 @@ namespace PeerTubeApiClient.Model
             }
             set
             {
-                if (value.GetType() == typeof(Uuid) || value is Uuid)
+                if (value.GetType() == typeof(Guid) || value is Guid)
                 {
                     this._actualInstance = value;
                 }
@@ -147,13 +147,13 @@ namespace PeerTubeApiClient.Model
             try
             {
                 // if it does not contains "AdditionalProperties", use SerializerSettings to deserialize
-                if (typeof(Uuid).GetProperty("AdditionalProperties") == null)
+                if (typeof(Guid).GetProperty("AdditionalProperties") == null)
                 {
-                    newAddVideoPlaylistVideoRequestVideoId = new AddVideoPlaylistVideoRequestVideoId(JsonConvert.DeserializeObject<Uuid>(jsonString, AddVideoPlaylistVideoRequestVideoId.SerializerSettings));
+                    newAddVideoPlaylistVideoRequestVideoId = new AddVideoPlaylistVideoRequestVideoId(JsonConvert.DeserializeObject<Guid>(jsonString, AddVideoPlaylistVideoRequestVideoId.SerializerSettings));
                 }
                 else
                 {
-                    newAddVideoPlaylistVideoRequestVideoId = new AddVideoPlaylistVideoRequestVideoId(JsonConvert.DeserializeObject<Uuid>(jsonString, AddVideoPlaylistVideoRequestVideoId.AdditionalPropertiesSerializerSettings));
+                    newAddVideoPlaylistVideoRequestVideoId = new AddVideoPlaylistVideoRequestVideoId(JsonConvert.DeserializeObject<Guid>(jsonString, AddVideoPlaylistVideoRequestVideoId.AdditionalPropertiesSerializerSettings));
                 }
                 matchedTypes.Add("Uuid");
                 match++;

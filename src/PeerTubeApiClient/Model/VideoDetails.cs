@@ -219,8 +219,8 @@ namespace PeerTubeApiClient.Model
         /// </summary>
         /// <value>truncated description of the video, written in Markdown. </value>
         /// <example>**[Want to help to translate this video?](https://weblate.framasoft.org/projects/what-is-peertube-video/)**\r\n\r\n
-**Take back the control of your videos! [#JoinPeertube](https://joinpeertube.org)**\r\n*A decentralized video hosting network, based on fr...
-</example>
+        /// **Take back the control of your videos! [#JoinPeertube](https://joinpeertube.org)**\r\n*A decentralized video hosting network, based on fr...
+        /// </example>
         [DataMember(Name = "truncatedDescription", EmitDefaultValue = true)]
         public string TruncatedDescription { get; set; }
 
@@ -363,12 +363,12 @@ namespace PeerTubeApiClient.Model
         /// </summary>
         /// <value>full description of the video, written in Markdown. </value>
         /// <example>	&quot;**[Want to help to translate this video?](https://weblate.framasoft.org/projects/what-is-peertube-video/)**\r\n\r\n
- **Take back the control of your videos! [#JoinPeertube](https://joinpeertube.org)**\r\n*A decentralized video hosting network,
- based on free/libre software!*\r\n\r\n**Animation Produced by:** [LILA](https://libreart.info) - [ZeMarmot Team](https://film.zemarmot.net)\r\n
- *Directed by* Aryeom\r\n*Assistant* Jehan\r\n**Licence**: [CC-By-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)\r\n\r\n
- **Sponsored by** [Framasoft](https://framasoft.org)\r\n\r\n**Music**: [Red Step Forward](http://play.dogmazic.net/song.php?song_id&#x3D;52491) - CC-By Ken Bushima\r\n\r\n
- **Movie Clip**: [Caminades 3: Llamigos](http://www.caminandes.com/) CC-By Blender Institute\r\n\r\n**Video sources**: https://gitlab.gnome.org/Jehan/what-is-peertube/&quot;
-</example>
+        ///  **Take back the control of your videos! [#JoinPeertube](https://joinpeertube.org)**\r\n*A decentralized video hosting network,
+        ///  based on free/libre software!*\r\n\r\n**Animation Produced by:** [LILA](https://libreart.info) - [ZeMarmot Team](https://film.zemarmot.net)\r\n
+        ///  *Directed by* Aryeom\r\n*Assistant* Jehan\r\n**Licence**: [CC-By-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)\r\n\r\n
+        ///  **Sponsored by** [Framasoft](https://framasoft.org)\r\n\r\n**Music**: [Red Step Forward](http://play.dogmazic.net/song.php?song_id&#x3D;52491) - CC-By Ken Bushima\r\n\r\n
+        ///  **Movie Clip**: [Caminades 3: Llamigos](http://www.caminandes.com/) CC-By Blender Institute\r\n\r\n**Video sources**: https://gitlab.gnome.org/Jehan/what-is-peertube/&quot;
+        /// </example>
         [DataMember(Name = "description", EmitDefaultValue = true)]
         public string Description { get; set; }
 

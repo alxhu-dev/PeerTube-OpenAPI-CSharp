@@ -287,8 +287,6 @@ namespace PeerTubeApiClient.Model
                     return new ApiV1VideosOwnershipIdAcceptPostIdParameter(Convert.ToInt32(reader.Value));
                 case JsonToken.String: 
                     return new ApiV1VideosOwnershipIdAcceptPostIdParameter(Convert.ToString(reader.Value));
-                case JsonToken.String: 
-                    return new ApiV1VideosOwnershipIdAcceptPostIdParameter(Convert.ToString(reader.Value));
                 case JsonToken.StartObject:
                     return ApiV1VideosOwnershipIdAcceptPostIdParameter.FromJson(JObject.Load(reader).ToString(Formatting.None));
                 case JsonToken.StartArray:

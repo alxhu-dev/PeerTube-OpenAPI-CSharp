@@ -145,7 +145,7 @@ namespace PeerTubeApiClient.Model
         /// </summary>
         /// <value>Video description</value>
         /// <example>**[Want to help to translate this video?](https://weblate.framasoft.org/projects/what-is-peertube-video/)**\r\n\r\n**Take back the control of your videos! [#JoinPeertube](https://joinpeertube.org)**
-</example>
+        /// </example>
         [DataMember(Name = "description", EmitDefaultValue = false)]
         public string Description { get; set; }
 

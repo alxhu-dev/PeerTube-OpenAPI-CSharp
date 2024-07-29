@@ -197,8 +197,8 @@ namespace PeerTubeApiClient.Model
         /// </summary>
         /// <value>truncated description of the video, written in Markdown. </value>
         /// <example>**[Want to help to translate this video?](https://weblate.framasoft.org/projects/what-is-peertube-video/)**\r\n\r\n
-**Take back the control of your videos! [#JoinPeertube](https://joinpeertube.org)**\r\n*A decentralized video hosting network, based on fr...
-</example>
+        /// **Take back the control of your videos! [#JoinPeertube](https://joinpeertube.org)**\r\n*A decentralized video hosting network, based on fr...
+        /// </example>
         [DataMember(Name = "truncatedDescription", EmitDefaultValue = true)]
         public string TruncatedDescription { get; set; }
 
