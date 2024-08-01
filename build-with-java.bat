@@ -1,0 +1,1 @@
+java -jar openapi-generator-cli-7.7.0.jar generate -g csharp -i openapi.json --skip-validate-spec --package-name PeerTubeApiClient
