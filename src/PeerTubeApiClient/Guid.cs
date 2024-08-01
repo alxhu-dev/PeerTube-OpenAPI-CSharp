@@ -16,7 +16,7 @@ namespace PeerTubeApiClient
         /// <summary>
         /// Requirement for several build errors
         /// </summary>
-        public readonly int Length = 32;
+        public readonly int Length = 36;
         private System.Guid _internalGuid;
 
         internal Guid() : this(System.Guid.Empty)
