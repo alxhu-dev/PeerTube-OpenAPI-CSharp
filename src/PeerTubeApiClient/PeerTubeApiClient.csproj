@@ -9,10 +9,12 @@
     <Authors>alxhu</Authors>
     <Company></Company>
     <AssemblyTitle>OpenAPI Library</AssemblyTitle>
-    <Description>A library generated from a OpenAPI doc</Description>
+    <Description>WARNING: This library is still in testing.
+
+A library to access the PeerTube REST API. Automatically generated via the OpenAPI doc.</Description>
     <Copyright>Library created by OpenAPI generator and alxhu</Copyright>
     <RootNamespace>PeerTubeApiClient</RootNamespace>
-    <Version>0.1.0</Version>
+    <Version>1.0.0-beta.1</Version>
     <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\PeerTubeApiClient.xml</DocumentationFile>
     <RepositoryUrl>https://github.com/alxhu-dev/PeerTube-OpenAPI-CSharp.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
@@ -24,6 +26,7 @@
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageProjectUrl>https://github.com/alxhu-dev/PeerTube-OpenAPI-CSharp</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>peertube;api;sdk;peertube sdk;rest;rest api</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
